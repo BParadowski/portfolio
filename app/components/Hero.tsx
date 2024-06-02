@@ -2,16 +2,17 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container py-4 text-4xl font-medium tracking-wide">
-      <p>Hey, I'm Bartosz,</p>
+    <div className="container py-4 text-4xl font-medium leading-tight tracking-wide">
+      <p>Hey, I'm Bartosz.</p>
       <p>
         A Full Stack{" "}
-        <span className="from-amber-200 to-orange-300 dark:bg-gradient-to-r dark:bg-clip-text dark:text-transparent">
+        <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
           Web Developer
         </span>
       </p>
       <p>
-        and <span className="dark:text-teal-200">Musician.</span>
+        and{" "}
+        <span className="bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent">Musician.</span>
       </p>
     </div>
   );
