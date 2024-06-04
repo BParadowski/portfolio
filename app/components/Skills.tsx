@@ -28,15 +28,15 @@ type TechKind = keyof typeof icons;
 
 function Skills() {
   return (
-    <div className="container py-4">
+    <div className="container">
       <div className="">
-        <h2 className="text-center text-2xl font-medium tracking-wide">My skills</h2>
-        <div className="grid grid-cols-2 gap-y-4 py-4 md:grid-cols-3">
+        <h2 className="text-center text-3xl font-extrabold tracking-wide">My skills</h2>
+        <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-4 md:grid-cols-3">
           {Object.keys(icons).map((techKind) => {
             return (
               <div>
                 <h3 className="font-semibold capitalize">{techKind}</h3>
-                <ul className="flex flex-col gap-2">
+                <ul className="mt-2 flex flex-col gap-2">
                   {Object.entries(icons[techKind as TechKind]).map(([tech, svgUrl]) => {
                     return (
                       <li key={tech} className="flex items-center gap-4 rounded-md px-2">

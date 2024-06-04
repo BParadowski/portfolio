@@ -18,7 +18,7 @@ function Hero() {
           </span>
         </p>
       </div>
-      <p className="max-w-md pt-2 text-3xl font-medium opacity-50">
+      <p className="max-w-md pt-2 text-xl font-medium opacity-50">
         I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React.
       </p>
     </div>
