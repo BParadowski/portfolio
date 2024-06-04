@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <div className="container py-4">
-      <div className="text-4xl font-medium leading-tight tracking-wide">
+      <div className="text-4xl font-medium leading-normal tracking-wide">
         <p>Hey, I'm Bartosz.</p>
         <p>
           A Full Stack{" "}
@@ -18,8 +18,9 @@ function Hero() {
           </span>
         </p>
       </div>
-      <p className="max-w-md pt-2 text-xl font-medium opacity-50">
-        I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React.
+      <p className="max-w-md pt-2 text-lg leading-relaxed opacity-50">
+        I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I am looking for
+        opportunities to enter the industry!
       </p>
     </div>
   );

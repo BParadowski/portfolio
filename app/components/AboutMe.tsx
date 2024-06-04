@@ -8,18 +8,16 @@ function AboutMe() {
         <p>
           I'm a musician currently pursuing masters degree in viola performance which I am expecting to finish this
           fall. I've been working as a freelance studio and concert artist for the last 5 years. I specialise in new
-          music performance - I've performed on prestigious festivals with ensambles like Orkiestra Muzyki Nowej and
-          Hashtag Ensamble. For more than 4 years I've been a member of Primuz Chamber Orchestra with which I've
+          music performance - I've performed on numerous festivals with ensembles like Orkiestra Muzyki Nowej and
+          Hashtag Ensemble. For more than 4 years I've been a member of Primuz Chamber Orchestra with which I've
           performed dozens of concerts and recorded filmscores and albums. You can listen to me here.
         </p>
         <p>
           I got into coding right after finishing my bachelors degree. I found myself missing the more "technical"
-          aspects of my personality and after consideration of different aspects of IT I landed on Web Development.
+          aspects of my personality. After brief consideration of my option I landed on Web Development. It quickly
+          proved to be the right choice - I find solving real problems and working with visuals very satisfying.
         </p>
-        <p>
-          My other interests include good literature and movies (especially sci-fi), isometric RPGs, linguistics,
-          science of longevity and plant-based cuisine.
-        </p>
+        <p>I am isometric RPGs, linguistics, science of longevity and plant-based cuisine.</p>
       </div>
     </div>
   );
