@@ -15,9 +15,14 @@ function AboutMe() {
         <p>
           I got into coding right after finishing my bachelors degree. I found myself missing the more "technical"
           aspects of my personality. After brief consideration of my option I landed on Web Development. It quickly
-          proved to be the right choice - I find solving real problems and working with visuals very satisfying.
+          proved to be the right choice - I find being able to solve real problems and working with visuals very
+          satisfying.
         </p>
-        <p>I am isometric RPGs, linguistics, science of longevity and plant-based cuisine.</p>
+        <p>
+          I'm a fan of sci-fi art, books an movies. I love isometric RPGs - Disco Elysium, I am looking at you. I'm
+          fascinated by the science of longevity and healthspan. My other interests include linguistics, drawing and
+          plant-based cuisine.
+        </p>
       </div>
     </div>
   );
