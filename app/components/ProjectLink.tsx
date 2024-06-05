@@ -6,7 +6,10 @@ interface ProjectLinkProps extends BaseHTMLAttributes<HTMLAnchorElement> {
 
 export default function ProjectLink({ type = "demo", ...props }: ProjectLinkProps) {
   return (
-    <a className="flex w-44 items-center gap-3 rounded-full bg-stone-100 px-4 py-2" {...props}>
+    <a
+      className="flex w-fit items-center gap-3 rounded-full bg-stone-100 px-4 py-2 hover:scale-105 hover:bg-stone-200"
+      {...props}
+    >
       {type === "github" ? (
         <>
           <img src="/icons/icons8-github.svg" className="h-6 w-6" /> <span>View code</span>
