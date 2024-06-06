@@ -1,10 +1,12 @@
 import { useMutation } from "@tanstack/react-query";
+import { FormSchemaType } from "./ContactForm";
 
 export default function useSendMessage() {
   const { status, mutate } = useMutation({
     mutationKey: ["contact-form-mutation"],
-    mutationFn: async (formData) => {
+    mutationFn: async (formData: FormSchemaType) => {
       await fetch("/api/send", {
+        method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
@@ -13,5 +15,5 @@ export default function useSendMessage() {
     },
   });
 
-  return { status, mutate };
+  return { sendingStatus: status, sendMessage: mutate };
 }

@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import QueryProvider from "./components/ReactQueryProvider";
 
 const inter = Roboto({ subsets: ["latin"], weight: ["500", "400", "700"] });
 
@@ -18,11 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} grid min-h-screen grid-rows-[auto_1fr_auto]`}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+      <QueryProvider>
+        <body className={`${inter.className} grid min-h-screen grid-rows-[auto_1fr_auto]`}>
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </QueryProvider>
     </html>
   );
 }
