@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container py-4">
+    <div className="container">
       <div className="text-4xl font-medium leading-normal tracking-wide">
         <p>Hey, I'm Bartosz.</p>
         <p>

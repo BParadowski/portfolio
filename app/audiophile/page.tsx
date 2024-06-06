@@ -7,7 +7,7 @@ const techList = ["Next.js (pages router)", "Tanstack Query (React Query)", "Pri
 
 export default function AudiophilePage() {
   return (
-    <div className="container mt-10">
+    <div className="container my-10">
       <h1 className="text-3xl font-extrabold tracking-wide lg:text-4xl">Audiophile</h1>
 
       <div className="mt-8 grid gap-x-6 gap-y-6 lg:grid-cols-2">
@@ -17,7 +17,7 @@ export default function AudiophilePage() {
           className="overflow-clip rounded-xl lg:col-start-2"
         />
         <div className="lg:row-start-1">
-          <p className="max-w-prose text-lg opacity-50 lg:leading-relaxed">
+          <p className="max-w-prose text-justify text-lg opacity-50 lg:leading-relaxed">
             Creating an e-commerce application seems to be a rite of passage for web developers. I decided to make mine
             about something close to me - sound. The website is based on a Figma design by Frontend Mentor
             <span className="align-super text-xs">TM</span>. It features a REST API, cart with server state management
