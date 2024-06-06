@@ -1,5 +1,5 @@
 import { useMutation } from "@tanstack/react-query";
-import { FormSchemaType } from "./ContactForm";
+import { FormSchemaType } from "./formSchema";
 
 export default function useSendMessage() {
   const { status, mutate } = useMutation({
@@ -11,7 +11,7 @@ export default function useSendMessage() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
-      });
+      }).then((res) => console.log(res.json()));
     },
   });
 

@@ -1,16 +1,30 @@
 export const dynamic = "force-dynamic";
-import { formSchema } from "@/app/components/Contact form/ContactForm";
+import { formSchema } from "@/app/components/contact-form/formSchema";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
-  const data = await req.json();
+  const formData = await req.json();
 
   let parsedData;
   try {
-    parsedData = formSchema.parse(data);
-  } catch {
+    parsedData = formSchema.parse(formData);
+  } catch (e) {
+    console.log(e);
     return Response.json("400");
   }
   const { name, email, message } = parsedData;
+  console.log("----- This runs");
 
-  return Response.json("204");
+  const { data, error } = await resend.emails.send({
+    from: "Contact Form <contact@bparadowski.com>",
+    to: ["bartoszparadowski01@gmail.com"],
+    subject: "Hello world",
+    html: JSON.stringify(parsedData),
+  });
+
+  console.log(data, error);
+
+  return Response.json(data);
 }

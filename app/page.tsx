@@ -2,7 +2,7 @@ import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
-import ContactForm from "./components/Contact form/ContactForm";
+import ContactForm from "./components/contact-form/ContactForm";
 
 export default function Home() {
   return (
