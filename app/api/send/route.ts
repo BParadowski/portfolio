@@ -1,11 +1,12 @@
 export const dynamic = "force-dynamic";
 import { formSchema } from "@/app/components/contact-form/formSchema";
 import { EmailTemplate } from "@/app/emails/ContactEmail";
+import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest, res: NextResponse) {
   const formData = await req.json();
 
   let parsedData;
@@ -25,6 +26,10 @@ export async function POST(req: Request) {
     react: EmailTemplate({ name, email, message }),
     text: `${name} from ${email} wants to contact. \n Message: ${message}`,
   });
+
+  if (error) {
+    return Response.json(error);
+  }
 
   return Response.json(data);
 }
