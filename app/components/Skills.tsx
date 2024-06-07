@@ -41,7 +41,7 @@ function Skills() {
                     return (
                       <li key={tech} className="flex items-center gap-4 rounded-md px-2">
                         <img alt="" src={svgUrl} className="h-8 w-8"></img>
-                        <p className="text-center">{tech}</p>
+                        <p>{tech}</p>
                       </li>
                     );
                   })}

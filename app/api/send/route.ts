@@ -23,6 +23,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
     from: "Portfolio contact <contact@bparadowski.com>",
     to: ["bartoszparadowski01@gmail.com"],
     subject: "Contact request",
+    reply_to: email,
     react: EmailTemplate({ name, email, message }),
     text: `${name} from ${email} wants to contact. \n Message: ${message}`,
   });
