@@ -34,12 +34,12 @@ function Skills() {
         <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-4 md:grid-cols-3">
           {Object.keys(icons).map((techKind) => {
             return (
-              <div>
-                <h3 className="font-semibold capitalize">{techKind}</h3>
+              <div className="rounded-3xl border p-4">
+                <h2 className="font-semibold capitalize">{techKind}</h2>
                 <ul className="mt-2 flex flex-col gap-2">
                   {Object.entries(icons[techKind as TechKind]).map(([tech, svgUrl]) => {
                     return (
-                      <li key={tech} className="flex items-center gap-4 rounded-md px-2">
+                      <li key={tech} className="flex items-center gap-4 rounded-md">
                         <img alt="" src={svgUrl} className="h-8 w-8"></img>
                         <p>{tech}</p>
                       </li>
@@ -49,6 +49,15 @@ function Skills() {
               </div>
             );
           })}
+        </div>
+        <div className="mt-6 flex flex-col items-center gap-6">
+          <p className="text-center font-semibold">Currently learning</p>
+          <div className="flex w-fit items-center gap-6 rounded-full bg-stone-100 px-4 py-4 shadow-md">
+            <div className="rounded-full bg-white p-2">
+              <img src="/icons/icons8-docker.svg" className="translate-x-1" />
+            </div>
+            <p className="text-balance">Basics of Docker and container architecture</p>
+          </div>
         </div>
       </div>
     </div>

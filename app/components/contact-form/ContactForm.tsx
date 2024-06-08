@@ -33,10 +33,10 @@ function ContactForm() {
     <div className="container" id="contact">
       <div className="rounded-xl px-4 py-2">
         <h2 className="text-center text-3xl font-extrabold">Contact</h2>
-        <p className="mt-10 text-center text-xl opacity-50">
-          Looking for a developer? Don't hesitate to reach out - I'm ready to face new challenges.
+        <p className="mt-8 text-center text-xl opacity-50">
+          Looking for a developer? Don't hesitate to reach out - I'm ready to face new challenges!
         </p>
-        <div className="mt-10 flex justify-center">
+        <div className="mt-12 flex justify-center">
           <form onSubmit={handleSubmit(onSubmit)} className="grid w-full max-w-md gap-y-4">
             <div className="flex w-full max-w-md flex-col gap-2">
               <label htmlFor="name">Name</label>

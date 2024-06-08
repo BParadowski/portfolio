@@ -14,7 +14,7 @@ function AboutMe() {
         </p>
         <p>
           I got into coding right after finishing my bachelors degree. I found myself missing the more "technical"
-          aspects of my personality. After brief consideration of my option I landed on Web Development. It quickly
+          aspects of my personality. After brief consideration of my options I landed on Web Development. It quickly
           proved to be the right choice - I find being able to solve real problems and working with visuals very
           satisfying.
         </p>
