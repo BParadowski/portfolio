@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container">
+    <div className="container py-4">
       <div className="text-4xl font-medium leading-normal tracking-wide">
         <p>Hey, I'm Bartosz.</p>
         <p>
@@ -19,7 +19,7 @@ function Hero() {
         </p>
       </div>
       <p className="max-w-md pt-2 text-lg leading-relaxed opacity-50">
-        I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I am looking for
+        I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I'm looking for
         opportunities to enter the industry!
       </p>
     </div>

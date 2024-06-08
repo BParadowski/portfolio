@@ -3,7 +3,14 @@ import ProjectLink from "../components/ProjectLink";
 import Image from "next/image";
 import AudiophileHomeDesktop from "@/public/audiophile/audiophile-showcase.jpg";
 
-const techList = ["Next.js (pages router)", "Tanstack Query (React Query)", "Prisma ORM", "Zod", "SCSS modules"];
+const techList = [
+  "Next.js (pages router)",
+  "Prisma ORM",
+  "React Hook Form",
+  "Tanstack Query (React Query)",
+  "Zod",
+  "SCSS modules",
+];
 
 export default function AudiophilePage() {
   return (

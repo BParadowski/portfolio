@@ -57,12 +57,18 @@ function ContactForm() {
                 id="message"
                 {...register("message")}
                 name="message"
-                className="rounded-md border bg-stone-100 px-4 py-2 tracking-wide focus-within:outline-2"
+                className="min-h-24 rounded-md border bg-stone-100 px-4 py-2 tracking-wide focus-within:outline-2"
               />
             </div>
-            <button type="submit" className="w-fit justify-self-center rounded-full bg-stone-100 px-4 py-2">
-              Send
-            </button>
+            {sendingStatus === "pending" ? (
+              <button type="button" className="w-fit justify-self-center rounded-full bg-stone-100 px-4 py-2">
+                Sending...
+              </button>
+            ) : (
+              <button type="submit" className="w-fit justify-self-center rounded-full bg-stone-100 px-4 py-2">
+                Send
+              </button>
+            )}
           </form>
         </div>
       </div>
