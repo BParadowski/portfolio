@@ -2,8 +2,9 @@
 import React from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import useSendMessage from "./useSendMessage";
+import { zodResolver } from "@hookform/resolvers/zod";
 
-import { FormSchemaType } from "./formSchema";
+import { FormSchemaType, formSchema } from "./formSchema";
 
 function ContactForm() {
   const {
@@ -12,6 +13,7 @@ function ContactForm() {
     reset,
     formState: { errors, dirtyFields },
   } = useForm<FormSchemaType>({
+    resolver: zodResolver(formSchema),
     mode: "onTouched",
     defaultValues: {
       name: "",
@@ -28,9 +30,12 @@ function ContactForm() {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="contact">
       <div className="rounded-xl px-4 py-2">
         <h2 className="text-center text-3xl font-extrabold">Contact</h2>
+        <p className="mt-10 text-center text-xl opacity-50">
+          Looking for a developer? Don't hesitate to reach out - I'm ready to face new challenges.
+        </p>
         <div className="mt-10 flex justify-center">
           <form onSubmit={handleSubmit(onSubmit)} className="grid w-full max-w-md gap-y-4">
             <div className="flex w-full max-w-md flex-col gap-2">

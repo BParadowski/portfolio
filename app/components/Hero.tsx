@@ -18,10 +18,18 @@ function Hero() {
           </span>
         </p>
       </div>
-      <p className="max-w-md pt-2 text-lg leading-relaxed opacity-50">
-        I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I'm looking for
-        opportunities to enter the industry!
-      </p>
+      <div className="flex flex-col gap-8 pt-2">
+        <p className="max-w-md text-lg leading-relaxed opacity-50">
+          I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I'm looking
+          for opportunities to enter the industry!
+        </p>
+        <a
+          href="/#contact"
+          className="w-fit rounded-md border border-amber-300 bg-gradient-to-r from-amber-300 to-orange-400 px-4 py-2 text-xl font-bold text-white"
+        >
+          Get in touch
+        </a>
+      </div>
     </div>
   );
 }
