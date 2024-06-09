@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import QueryProvider from "./components/ReactQueryProvider";
+import ContactForm from "./components/contact-form/ContactForm";
 
 const inter = Roboto({ subsets: ["latin"], weight: ["500", "400", "700"] });
 
@@ -23,6 +24,8 @@ export default function RootLayout({
         <body className={`${inter.className} grid min-h-screen grid-rows-[auto_1fr_auto]`}>
           <Header />
           {children}
+          <ContactForm />
+
           <Footer />
         </body>
       </QueryProvider>
