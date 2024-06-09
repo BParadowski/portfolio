@@ -5,6 +5,7 @@ import AudiophileHomeDesktop from "@/public/audiophile/audiophile-showcase.jpg";
 import AudiophileCheckoutError from "@/public/audiophile/checkout-error.jpeg";
 import AudiophileCart from "@/public/audiophile/audiophile-cart.jpeg";
 import Headphones from "@/public/audiophile/headphones.jpeg";
+import Cart from "@/public/audiophile/cart.jpeg";
 
 const techList = [
   "Next.js (pages router)",
@@ -24,12 +25,20 @@ const details = [
     image: Headphones,
   },
   {
-    title: "Checkout and order placement",
+    title: "Checkout form and data validation",
     paragraphs: [
       "I wanted the checkout form to provide users with descriptive error messages and validate data before sending it for further processing.",
-      "For this job I chose React Hook Form and Zod. Both have elegant APIs and integrate wonderfully with TypeScript. They're also tools wildely used in the industry.",
+      "For this job I chose React Hook Form and Zod. Both have elegant APIs and integrate wonderfully with TypeScript. They're also widely used in the industry.",
     ],
     image: AudiophileCheckoutError,
+  },
+  {
+    title: "Server state",
+    paragraphs: [
+      "Since information about individual carts is useful for analytics (among other things), I decided to store it on the server. The client is connected to the cart by ID in local storage.",
+      "I implemented this functionality with React Query. It gave me the tools to handle loading states as well as optimistic updates which ensure the cart works smoothly.",
+    ],
+    image: Cart,
   },
 ] as const;
 

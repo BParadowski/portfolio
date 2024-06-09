@@ -19,7 +19,7 @@ function AboutMe() {
           satisfying.
         </p>
         <p>
-          I'm a fan of sci-fi art, books an movies. I love isometric RPGs (Disco Elysium, Planescape: Torment and the
+          I'm a fan of sci-fi art, books and movies. I love isometric RPGs (Disco Elysium, Planescape: Torment and the
           like). I'm fascinated by the science of longevity and healthspan. My other interests include linguistics,
           drawing and plant-based cuisine.
         </p>
