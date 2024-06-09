@@ -7,7 +7,7 @@ import ContactForm from "./components/contact-form/ContactForm";
 export default function Home() {
   return (
     <main>
-      <div className="my-10 grid gap-y-16 md:gap-y-24 xl:gap-y-32">
+      <div className="my-10 grid gap-y-20 md:gap-y-24 xl:gap-y-32">
         <Hero />
         <Skills />
         <Projects />
