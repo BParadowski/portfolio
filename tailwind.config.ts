@@ -25,6 +25,7 @@ const config: Config = {
       },
     },
   },
+  safelist: ["text-xs", "align-super"],
   plugins: [],
 };
 export default config;

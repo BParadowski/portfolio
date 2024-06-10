@@ -26,7 +26,7 @@ export const projectsData: {
 } = {
   audiophile: {
     title: "Audiophile",
-    mainDescription: `Creating an e-commerce application seems to be a rite of passage for web developers. I decided to make mine about something close to me - sound. The website is based on a Figma design by Frontend Mentor<span className="align-super text-xs">TM</span>. It features a REST API, cart with server state managementand a complex order form with data validation on both frontend and backend.`,
+    mainDescription: `Creating an e-commerce application seems to be a rite of passage for web developers. I decided to make mine about something close to me - sound. The website is based on a Figma design by Frontend Mentor<span class="align-super text-xs">TM</span>. It features a REST API, cart with server state managementand a complex order form with data validation on both frontend and backend.`,
     links: [
       {
         type: "demo",
