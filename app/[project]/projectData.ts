@@ -6,6 +6,7 @@ import Headphones from "@/public/audiophile/headphones.jpeg";
 import Cart from "@/public/audiophile/cart.jpeg";
 // Primuz App
 import PrimuzShowcase from "@/public/primuz/primuz-hero.jpeg";
+import PrimuzAvailabiltiy from "@/public/primuz/availability-picking.jpeg";
 
 export interface ProjectData {
   title: string;
@@ -74,7 +75,7 @@ export const projectsData: {
   primuz: {
     title: "Primuz App",
     mainDescription:
-      "Well renowned (and well funded) orchestras have systems which streamline their work. I created something similar for my chamber orchestra. It's a PWA which helps us plan our concerts and rehearsals. Users can share their availability for a given event, display info about projects, receive notifications about new concerts in the planning and download sheet music.",
+      "Well renowned (and well funded) orchestras have systems which streamline their work. I created something similar for my chamber orchestra. It's a PWA which helps us plan our concerts and rehearsals. Users can display information about projects, receive notifications about new ones in the planning, share if they're available for an event and download sheet music.",
     links: [],
     heroImage: PrimuzShowcase,
     techstack: [
@@ -83,10 +84,32 @@ export const projectsData: {
       "PostgreSQL",
       "Google Calendar API",
       "OneSignal",
-      "Tailwind",
+      "date-fns",
       "shadcn/ui",
       "React DnD Kit",
     ],
-    details: [],
+    details: [
+      {
+        title: "Motivation",
+        paragraphs: [
+          "The idea for this application came to me when I noticed several problems with communication and planning within my orchestra. At the time, we used many services: Google Sheets, We-Transfer, e-mails, Google Calendar... Important information would end up scattered across several facebook group posts.",
+          "I realised I can use my skills to bundle these functionalities together and improve our workflow.",
+        ],
+        image: Headphones,
+      },
+      {
+        title: "Feature: availability",
+        paragraphs: [
+          "Orchestra members can signal if they're available for a given project. They can choose from 4 different status types and attach a message.",
+          `It solved two problems of Google Sheets. We used to have the choice between checkmark and no checkmark - it offered no distinction between "I don't know yet" and "I'm unavailable". The other problem was UX on mobile devices - my collegues had problems getting Google Sheets to work on their phones.`,
+        ],
+        image: PrimuzAvailabiltiy,
+      },
+      {
+        title: "Feature: project info",
+        paragraphs: ["We can now access all information about an event on its page."],
+        image: PrimuzAvailabiltiy,
+      },
+    ],
   },
 };
