@@ -32,11 +32,13 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
               className="max-w-prose text-justify text-lg opacity-50 lg:leading-relaxed"
               dangerouslySetInnerHTML={{ __html: mainDescription }}
             />
-            <div className="mt-6 flex gap-4">
-              {links.map(({ type, url }) => {
-                return <ProjectLink type={type} href={url} />;
-              })}
-            </div>
+            {links.length > 0 && (
+              <div className="mt-6 flex gap-4">
+                {links.map(({ type, url }) => {
+                  return <ProjectLink type={type} href={url} />;
+                })}
+              </div>
+            )}
             <h2 className="mt-8 text-lg font-bold">Techstack</h2>
             <ul className="mt-4 flex flex-col gap-2">
               {techstack.map((tech) => {

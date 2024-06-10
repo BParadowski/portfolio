@@ -1,9 +1,11 @@
 import { StaticImageData } from "next/image";
-
+// Audiophile
 import AudiophileShowcase from "@/public/audiophile/audiophile-showcase.jpg";
 import AudiophileCheckoutError from "@/public/audiophile/checkout-error.jpeg";
 import Headphones from "@/public/audiophile/headphones.jpeg";
 import Cart from "@/public/audiophile/cart.jpeg";
+// Primuz App
+import PrimuzShowcase from "@/public/primuz/primuz-hero.jpeg";
 
 export interface ProjectData {
   title: string;
@@ -17,7 +19,7 @@ export interface ProjectData {
   details: { title: string; paragraphs: string[]; image: StaticImageData }[];
 }
 
-export const projectSlugs = ["audiophile"] as const;
+export const projectSlugs = ["audiophile", "primuz", "designo"] as const;
 
 export type ProjectSlugs = (typeof projectSlugs)[number];
 
@@ -68,5 +70,23 @@ export const projectsData: {
         image: Cart,
       },
     ],
+  },
+  primuz: {
+    title: "Primuz App",
+    mainDescription:
+      "Well renowned (and well funded) orchestras have systems which streamline their work. I created something similar for my chamber orchestra. It's a PWA which helps us plan our concerts and rehearsals. Users can share their availability for a given event, display info about projects, receive notifications about new concerts in the planning and download sheet music.",
+    links: [],
+    heroImage: PrimuzShowcase,
+    techstack: [
+      "Next.js",
+      "Supabase",
+      "PostgreSQL",
+      "Google Calendar API",
+      "OneSignal",
+      "Tailwind",
+      "shadcn/ui",
+      "React DnD Kit",
+    ],
+    details: [],
   },
 };
