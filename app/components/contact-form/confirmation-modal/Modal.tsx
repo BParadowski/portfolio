@@ -14,10 +14,12 @@ export default function ConfirmationModal() {
     };
     closeButtonRef.current?.focus();
 
-    window.addEventListener("keydown", closeOnEscapePress);
-    return () => {
-      window.removeEventListener("keydown", closeOnEscapePress);
-    };
+    if (typeof window === "object") {
+      window.addEventListener("keydown", closeOnEscapePress);
+      return () => {
+        window.removeEventListener("keydown", closeOnEscapePress);
+      };
+    }
   }, [closeModal]);
 
   return createPortal(
