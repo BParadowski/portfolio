@@ -65,11 +65,13 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
                 className="group grid items-center gap-x-10 gap-y-6 md:grid-cols-[4fr_5fr] md:gap-y-0 even:md:grid-cols-[5fr_4fr]"
                 key={title}
               >
-                <h2 className="col-start-2 mt-2 self-end text-xl font-bold group-even:col-start-1 md:mt-0">{title}</h2>
+                <h2 className="mt-2 self-end text-xl font-bold md:col-start-2 md:mt-0 md:group-even:col-start-1">
+                  {title}
+                </h2>
                 <Image
                   src={image}
                   alt=""
-                  className="row-span-2 row-start-1 rounded-lg shadow-md group-even:col-start-2"
+                  className="rounded-lg shadow-md md:row-span-2 md:row-start-1 md:group-even:col-start-2"
                 ></Image>
                 <div className="flex flex-col gap-6 self-start md:mt-4">
                   {paragraphs.map((text) => {

@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="container">
+    <div className="container isolate">
       <div className="flex flex-col items-center text-center">
         <div className="text-3xl font-medium tracking-wide md:text-4xl">
           <p className="leading-normal">

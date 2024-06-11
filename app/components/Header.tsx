@@ -7,9 +7,13 @@ import ProjectIcon from "@/public/navigation/icons8-view-quilt-50.png";
 import AboutIcon from "@/public/navigation/icons8-person-60.png";
 import ResumeIcon from "@/public/navigation/icons8-cv-48.png";
 
+import ModalProvider from "./contact-form/confirmation-modal/ModalProvider";
+import Hamburger from "./mobile-nav/NavButton";
+import NavDropdown from "./mobile-nav/NavDropdown";
+
 function Header() {
   return (
-    <div className="sticky">
+    <header className="sticky isolate z-20">
       <div className="container">
         <div className="flex items-center py-8">
           <Link href={"/"}>
@@ -38,10 +42,15 @@ function Header() {
               </a>
             </ul>
           </nav>
-          <button className="ml-auto rounded-md bg-stone-100 px-4 py-2 uppercase md:hidden">menu</button>
+          <ModalProvider>
+            <div className="relative ml-auto md:hidden">
+              <Hamburger />
+              <NavDropdown />
+            </div>
+          </ModalProvider>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
