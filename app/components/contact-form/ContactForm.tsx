@@ -1,10 +1,11 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import useSendMessage from "./useSendMessage";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import { FormSchemaType, formSchema } from "./formSchema";
+import useModal from "./confirmation-modal/useModal";
 
 function ContactForm() {
   const {
@@ -23,6 +24,14 @@ function ContactForm() {
   });
 
   const { sendingStatus, sendMessage } = useSendMessage();
+  const { openModal } = useModal();
+
+  useEffect(() => {
+    console.log(sendingStatus);
+    if (sendingStatus === "success") {
+      openModal();
+    }
+  }, [sendingStatus]);
 
   const onSubmit: SubmitHandler<FormSchemaType> = (formData) => {
     sendMessage(formData);
