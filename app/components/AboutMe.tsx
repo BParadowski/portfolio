@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div className="container text-lg leading-loose">
+    <div className="container text-lg leading-loose" id="about-me">
       <h2 className="text-center text-3xl font-extrabold">About me </h2>
       <div className="mt-10 flex flex-col gap-4 text-justify opacity-50">
         <p>

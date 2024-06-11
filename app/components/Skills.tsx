@@ -28,7 +28,7 @@ type TechKind = keyof typeof icons;
 
 function Skills() {
   return (
-    <div className="container">
+    <div className="container" id="skills">
       <div className="">
         <h2 className="text-center text-3xl font-extrabold tracking-wide">My skills</h2>
         <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-4 md:grid-cols-3">

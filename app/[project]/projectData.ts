@@ -141,7 +141,7 @@ export const projectsData: {
         title: "Content management system",
         paragraphs: [
           "Members of the orchestra responsible for organisation have a CMS at their disposal. They can create and edit projects as well as add sheet music to the database.",
-          "I am especially pround of a component designed to build the exact structure of the orchestra. Our concertmaster can see the availability of all musicians, add them to sections and then sort them using drag and drop.",
+          "I'm especially pround of a component designed to build the exact structure of the orchestra. Our concertmaster can see the availability of all musicians, add them to sections and then sort them using drag and drop.",
         ],
         image: PrimuzCMS,
       },
