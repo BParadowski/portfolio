@@ -31,7 +31,7 @@ function ContactForm() {
 
   return (
     <div className="container" id="contact">
-      <div className="rounded-xl px-4 py-2">
+      <div className="rounded-xl px-4 py-8">
         <h2 className="text-center text-3xl font-extrabold">Contact</h2>
         <p className="mt-8 text-center text-xl opacity-50">
           Looking for a developer? Don't hesitate to reach out - I'm eager to face new challenges!

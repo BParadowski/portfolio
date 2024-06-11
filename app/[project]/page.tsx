@@ -3,6 +3,7 @@ import ProjectLink from "../components/ProjectLink";
 import Image from "next/image";
 
 import { projectSlugs, projectsData } from "./projectData";
+import ProjectCard from "../components/ProjectCard";
 
 export const dynamicParams = false;
 
@@ -56,7 +57,7 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
         </div>
       </div>
       <div className="mt-10">
-        <h2 className="col-start-2 mb-10 mt-2 self-end text-3xl font-bold">Project Details</h2>
+        <h2 className="mb-10 self-end text-3xl font-bold">Project Details</h2>
         <div className="flex flex-col gap-12">
           {details.map(({ title, paragraphs, image }) => {
             return (
@@ -75,6 +76,16 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
               </div>
             );
           })}
+        </div>
+      </div>
+      <div className="mt-10">
+        <h2 className="mb-10 self-end text-3xl font-bold">Other projects</h2>
+        <div className="grid gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
+          {projectSlugs
+            .filter((slug) => slug !== params.project)
+            .map((projectName) => {
+              return <ProjectCard project={projectName} />;
+            })}
         </div>
       </div>
     </div>

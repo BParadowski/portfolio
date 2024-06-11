@@ -1,10 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
-import AudiophileScreenshot from "@/public/AudiophileHero.png";
-import PrimuzScreenshot from "@/public/Primuz-showcase.jpg";
-import DesignoScreenshot from "@/public/DesignoHome.png";
-
 function Projects() {
   return (
     <div className="container">

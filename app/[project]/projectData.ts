@@ -13,6 +13,8 @@ import PrimuzCalendar from "@/public/primuz/google-calendar.png";
 import PrimuzMotivation from "@/public/primuz/motivation-primuz.jpeg";
 import PrimuzInstallation from "@/public/primuz/installation.jpeg";
 import PrimuzCMS from "@/public/primuz/cms.jpeg";
+// Designo
+import DesignoShowcase from "@/public/designo/designo-showcase.jpeg";
 
 export interface ProjectData {
   title: string;
@@ -45,6 +47,7 @@ export const projectsData: {
     ],
     heroImage: AudiophileShowcase,
     techstack: [
+      "TypeScript",
       "Next.js (pages router)",
       "Prisma ORM",
       "React Hook Form",
@@ -85,6 +88,7 @@ export const projectsData: {
     links: [],
     heroImage: PrimuzShowcase,
     techstack: [
+      "TypeScript",
       "Next.js",
       "Supabase",
       "PostgreSQL",
@@ -122,7 +126,7 @@ export const projectsData: {
         title: "Notifications",
         paragraphs: [
           "App users can choose to receive notifications about new projects and important updates.",
-          "Unfortunately, this functionality got crippled by Apple when they withdrew notification support for PWAs. I also regret having used OneSignal. Even tho implementation was relatively simple, the node SDK turned out to be buggy (I ended up using fetch for API calls) and the documentation left much to be desired.",
+          "Unfortunately, this functionality got crippled by Apple when they withdrew push notification support for PWAs. I also regret having used OneSignal. Even tho implementation was relatively simple, the node SDK turned out to be buggy (I ended up using fetch for API calls) and the documentation left much to be desired.",
         ],
         image: PrimuzNotification,
       },
@@ -137,17 +141,33 @@ export const projectsData: {
         title: "Content management system",
         paragraphs: [
           "Members of the orchestra responsible for organisation have a CMS at their disposal. They can create and edit projects as well as add sheet music to the database.",
-          "I am especially pround of a component ",
+          "I am especially pround of a component designed to build the exact structure of the orchestra. Our concertmaster can see the availability of all musicians, add them to sections and then sort them using drag and drop.",
         ],
         image: PrimuzCMS,
       },
       {
         title: "Lessons learned",
         paragraphs: [
-          "I could write an essay about what I learned during the development of this project. Afterall, it's my first app in production.",
+          "I could write an essay about what I learned during the development of this project. Afterall, it's my first app in production actually used by people.",
+          "What proved to be most valuable however, was my first contact with user feedback. Some features turned out to be high friction or less useful than I anticipated, others were missing.",
+          "It gave me both motivation and new ideas for further tinkering with Primuz App.",
         ],
         image: PrimuzInstallation,
       },
     ],
+  },
+  designo: {
+    title: "Designo",
+    mainDescription: "",
+    heroImage: DesignoShowcase,
+    links: [
+      {
+        type: "demo",
+        url: "https://designo-livid.vercel.app",
+      },
+      { type: "github", url: "https://github.com/BParadowski/designo" },
+    ],
+    techstack: ["TypeScript", "Next.js (app router)", "Tailwind", "SVGR", "Playwright"],
+    details: [],
   },
 };
