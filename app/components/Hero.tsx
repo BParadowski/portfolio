@@ -6,7 +6,7 @@ function Hero() {
       <div className="flex flex-col items-center text-center">
         <div className="text-3xl font-medium tracking-wide md:text-4xl">
           <p className="leading-normal">
-            Hey, I'm Bartosz.
+            Hey, I&apos;m Bartosz.
             <br />A Full Stack{" "}
             <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
               Web Developer
@@ -20,8 +20,8 @@ function Hero() {
         </div>
         <div className="flex flex-col gap-8 pt-4">
           <p className="max-w-prose text-lg leading-relaxed opacity-50">
-            I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I'm looking
-            for opportunities to enter the industry!
+            I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I&apos;m
+            looking for opportunities to enter the industry!
           </p>
           <a
             href="/#contact"
