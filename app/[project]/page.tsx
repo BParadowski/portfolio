@@ -36,7 +36,7 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
             {links.length > 0 && (
               <div className="mt-6 flex gap-4">
                 {links.map(({ type, url }) => {
-                  return <ProjectLink type={type} href={url} />;
+                  return <ProjectLink type={type} href={url} key={url} />;
                 })}
               </div>
             )}
@@ -61,7 +61,10 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
         <div className="flex flex-col gap-12">
           {details.map(({ title, paragraphs, image }) => {
             return (
-              <div className="group grid items-center gap-x-10 gap-y-6 md:grid-cols-[4fr_5fr] md:gap-y-0 even:md:grid-cols-[5fr_4fr]">
+              <div
+                className="group grid items-center gap-x-10 gap-y-6 md:grid-cols-[4fr_5fr] md:gap-y-0 even:md:grid-cols-[5fr_4fr]"
+                key={title}
+              >
                 <h2 className="col-start-2 mt-2 self-end text-xl font-bold group-even:col-start-1 md:mt-0">{title}</h2>
                 <Image
                   src={image}
@@ -84,7 +87,7 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
           {projectSlugs
             .filter((slug) => slug !== params.project)
             .map((projectName) => {
-              return <ProjectCard project={projectName} />;
+              return <ProjectCard project={projectName} key={projectName} />;
             })}
         </div>
       </div>

@@ -34,7 +34,7 @@ function Skills() {
         <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-4 md:grid-cols-3">
           {Object.keys(icons).map((techKind, i) => {
             return (
-              <div className={`rounded-3xl border p-4 ${i === 2 ? "col-span-2 md:col-span-1" : ""}`}>
+              <div className={`rounded-3xl border p-4 ${i === 2 ? "col-span-2 md:col-span-1" : ""}`} key={techKind}>
                 <h3 className="font-semibold capitalize">{techKind}</h3>
                 <ul className="mt-2 flex flex-col gap-2">
                   {Object.entries(icons[techKind as TechKind]).map(([tech, svgUrl]) => {
