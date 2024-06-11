@@ -8,9 +8,42 @@ function AboutMe() {
         <p>
           I&apos;m a musician currently pursuing masters degree in viola performance which I&apos;m expecting to finish
           this fall. I&apos;ve been working as a freelance studio and concert artist for the last 5 years. I specialise
-          in new music performance - I&apos;ve performed on numerous festivals with ensembles like Orkiestra Muzyki
-          Nowej and Hashtag Ensemble. For more than 4 years I&apos;ve been a member of Primuz Chamber Orchestra with
-          which I&apos;ve performed dozens of concerts and recorded filmscores and albums. You can listen to me here.
+          in new music performance - I&apos;ve performed on numerous festivals with ensembles like{" "}
+          <a
+            href="https://omn.art.pl/en/"
+            className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
+          >
+            Orkiestra Muzyki Nowej
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://hashtag-ensemble.org/"
+            className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
+          >
+            Hashtag Ensemble
+          </a>
+          . For more than 4 years I&apos;ve been a member of{" "}
+          <a
+            href="https://www.facebook.com/primuzchamberorchestra/"
+            className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
+          >
+            Primuz Chamber Orchestra
+          </a>{" "}
+          with which I&apos;ve performed dozens of concerts and recorded filmscores and albums. You can listen to us:{" "}
+          <a
+            href="https://www.youtube.com/watch?v=5hNdV5Q5EIQ&list=PLBQZMaICTUs3fUHRjKp7oBXWSNHK_-nR_&index=1/"
+            className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
+          >
+            The Aristocrats With Primuz Chamber Orchestra (progressive rock)
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://www.youtube.com/watch?v=hvYOwIEPrLI&list=OLAK5uy_lyiFj4YTow-vCIkeG9rSHe0dq2C343-RE"
+            className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
+          >
+            Grażyna Bacewicz - Music for String Orchestra (XX<span className="align-super text-xs">th</span> century
+            classical)
+          </a>{" "}
         </p>
         <p>
           I got into coding right after finishing my bachelors degree. I found myself missing the more

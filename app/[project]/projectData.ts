@@ -126,7 +126,7 @@ export const projectsData: {
         title: "Notifications",
         paragraphs: [
           "App users can choose to receive notifications about new projects and important updates.",
-          "Unfortunately, this functionality got crippled by Apple when they withdrew push notification support for PWAs. I also regret having used OneSignal. Even tho implementation was relatively simple, the node SDK turned out to be buggy (I ended up using fetch for API calls) and the documentation left much to be desired.",
+          "Unfortunately, this functionality got crippled by Apple when they withdrew push notification support for PWAs. I also regret having used OneSignal. Even though the implementation was relatively simple, the node SDK turned out to be buggy (I ended up using fetch for API calls) and the documentation left much to be desired.",
         ],
         image: PrimuzNotification,
       },
