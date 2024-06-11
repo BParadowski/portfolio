@@ -73,7 +73,11 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
                 ></Image>
                 <div className="flex flex-col gap-6 self-start md:mt-4">
                   {paragraphs.map((text) => {
-                    return <p className="max-w-prose text-justify text-lg opacity-50 lg:leading-relaxed">{text}</p>;
+                    return (
+                      <p className="max-w-prose text-justify text-lg opacity-50 lg:leading-relaxed" key={text}>
+                        {text}
+                      </p>
+                    );
                   })}
                 </div>
               </div>
