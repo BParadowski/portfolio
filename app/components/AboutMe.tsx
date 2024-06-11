@@ -13,10 +13,10 @@ function AboutMe() {
           I&apos;ve performed dozens of concerts and recorded filmscores and albums. You can listen to me here.
         </p>
         <p>
-          I got into coding right after finishing my bachelors degree. I found myself missing the more "technical"
-          aspects of my personality. After brief consideration of my options I landed on Web Development. It quickly
-          proved to be the right choice - I find being able to solve real problems and working with visuals very
-          satisfying.
+          I got into coding right after finishing my bachelors degree. I found myself missing the more
+          &quot;technical&quot; aspects of my personality. After brief consideration of my options I landed on Web
+          Development. It quickly proved to be the right choice - I find being able to solve real problems and working
+          with visuals very satisfying.
         </p>
         <p>
           I&apos;m a fan of sci-fi art, books and movies. I love isometric RPGs (Disco Elysium, Planescape: Torment and
