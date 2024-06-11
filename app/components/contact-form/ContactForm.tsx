@@ -40,7 +40,7 @@ function ContactForm() {
 
   return (
     <div className="container" id="contact">
-      <div className="rounded-xl px-4 py-8">
+      <div className="px-4 py-16">
         <h2 className="text-center text-3xl font-extrabold">Contact</h2>
         <p className="mt-8 text-center text-xl opacity-50">
           Looking for a developer? Don&apos;t hesitate to reach out - I&apos;m eager to face new challenges!
