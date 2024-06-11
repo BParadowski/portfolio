@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <div className="container text-lg leading-loose">
       <h2 className="text-center text-3xl font-extrabold">About me </h2>
-      <div className="mt-10 opacity-50">
+      <div className="mt-10 flex flex-col gap-4 text-justify opacity-50">
         <p>
           I'm a musician currently pursuing masters degree in viola performance which I am expecting to finish this
           fall. I've been working as a freelance studio and concert artist for the last 5 years. I specialise in new

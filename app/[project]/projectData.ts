@@ -7,6 +7,12 @@ import Cart from "@/public/audiophile/cart.jpeg";
 // Primuz App
 import PrimuzShowcase from "@/public/primuz/primuz-hero.jpeg";
 import PrimuzAvailabiltiy from "@/public/primuz/availability-picking.jpeg";
+import PrimuzInformation from "@/public/primuz/information-flow.jpeg";
+import PrimuzNotification from "@/public/primuz/primuz-notification.jpg";
+import PrimuzCalendar from "@/public/primuz/google-calendar.png";
+import PrimuzMotivation from "@/public/primuz/motivation-primuz.jpeg";
+import PrimuzInstallation from "@/public/primuz/installation.jpeg";
+import PrimuzCMS from "@/public/primuz/cms.jpeg";
 
 export interface ProjectData {
   title: string;
@@ -85,7 +91,7 @@ export const projectsData: {
       "Google Calendar API",
       "OneSignal",
       "date-fns",
-      "shadcn/ui",
+      "shadcn/ui (Radix UI)",
       "React DnD Kit",
     ],
     details: [
@@ -93,12 +99,12 @@ export const projectsData: {
         title: "Motivation",
         paragraphs: [
           "The idea for this application came to me when I noticed several problems with communication and planning within my orchestra. At the time, we used many services: Google Sheets, We-Transfer, e-mails, Google Calendar... Important information would end up scattered across several facebook group posts.",
-          "I realised I can use my skills to bundle these functionalities together and improve our workflow.",
+          "I realised I can use my skills to bundle these services together and improve our workflow.",
         ],
-        image: Headphones,
+        image: PrimuzMotivation,
       },
       {
-        title: "Feature: availability",
+        title: "Availability sharing",
         paragraphs: [
           "Orchestra members can signal if they're available for a given project. They can choose from 4 different status types and attach a message.",
           `It solved two problems of Google Sheets. We used to have the choice between checkmark and no checkmark - it offered no distinction between "I don't know yet" and "I'm unavailable". The other problem was UX on mobile devices - my collegues had problems getting Google Sheets to work on their phones.`,
@@ -106,9 +112,41 @@ export const projectsData: {
         image: PrimuzAvailabiltiy,
       },
       {
-        title: "Feature: project info",
-        paragraphs: ["We can now access all information about an event on its page."],
-        image: PrimuzAvailabiltiy,
+        title: "Information flow",
+        paragraphs: [
+          "We can now access all information about an event on its page - two taps aways from phone's desktop. It's no longer divided into bits and pieces.",
+        ],
+        image: PrimuzInformation,
+      },
+      {
+        title: "Notifications",
+        paragraphs: [
+          "App users can choose to receive notifications about new projects and important updates.",
+          "Unfortunately, this functionality got crippled by Apple when they withdrew notification support for PWAs. I also regret having used OneSignal. Even tho implementation was relatively simple, the node SDK turned out to be buggy (I ended up using fetch for API calls) and the documentation left much to be desired.",
+        ],
+        image: PrimuzNotification,
+      },
+      {
+        title: "Google Calendar integration",
+        paragraphs: [
+          "In the past we used a Google Calendar as a part of our planning system. I implemented sync between it and Primuz App. Thanks to it, we still enjoy the convenience of all concerts appearing in our calendar apps and there is no additional organisational overhead (managing both app and calendar).",
+        ],
+        image: PrimuzCalendar,
+      },
+      {
+        title: "Content management system",
+        paragraphs: [
+          "Members of the orchestra responsible for organisation have a CMS at their disposal. They can create and edit projects as well as add sheet music to the database.",
+          "I am especially pround of a component ",
+        ],
+        image: PrimuzCMS,
+      },
+      {
+        title: "Lessons learned",
+        paragraphs: [
+          "I could write an essay about what I learned during the development of this project. Afterall, it's my first app in production.",
+        ],
+        image: PrimuzInstallation,
       },
     ],
   },
