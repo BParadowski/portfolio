@@ -39,10 +39,10 @@ export default function NavDropdown() {
             <Image src={AboutIcon} alt="" className="h-4 w-4 opacity-40 group-hover:opacity-60" />
             <span className="opacity-70 group-hover:opacity-85">About me</span>
           </a>
-          <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-white" href="" onClick={closeModal}>
+          {/* <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-white" href="" onClick={closeModal}>
             <Image src={ResumeIcon} alt="" className="h-4 w-4 opacity-40 group-hover:opacity-60" />
             <span className="opacity-70 group-hover:opacity-85">Resume</span>
-          </a>
+          </a> */}
         </ul>
       </nav>
     );

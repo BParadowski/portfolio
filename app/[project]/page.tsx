@@ -22,13 +22,13 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
     <div className="container my-10 flex flex-col gap-10 lg:gap-16">
       <div>
         <h1 className="text-3xl font-extrabold tracking-wide lg:text-4xl">{title}</h1>
-        <div className="mt-8 grid gap-x-10 gap-y-6 md:grid-cols-2">
+        <div className="mt-8 grid gap-x-10 gap-y-6 lg:grid-cols-2">
           <Image
             alt="Audiophile home page screenshot"
             src={heroImage}
-            className="overflow-clip rounded-xl shadow-md md:col-start-2"
+            className="overflow-clip rounded-xl shadow-md lg:col-start-2"
           />
-          <div className="md:row-start-1">
+          <div className="lg:row-start-1">
             <p
               className="max-w-prose text-justify text-lg opacity-50 lg:leading-relaxed"
               dangerouslySetInnerHTML={{ __html: mainDescription }}
