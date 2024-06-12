@@ -4,6 +4,7 @@ import AudiophileShowcase from "@/public/audiophile/audiophile-showcase.jpg";
 import AudiophileCheckoutError from "@/public/audiophile/checkout-error.jpeg";
 import Headphones from "@/public/audiophile/headphones.jpeg";
 import Cart from "@/public/audiophile/cart.jpeg";
+import AudiophileLessons from "@/public/audiophile/tailwind-shopify.jpeg";
 // Primuz App
 import PrimuzShowcase from "@/public/primuz/primuz-hero.jpeg";
 import PrimuzAvailabiltiy from "@/public/primuz/availability-picking.jpeg";
@@ -37,7 +38,7 @@ export const projectsData: {
 } = {
   audiophile: {
     title: "Audiophile",
-    mainDescription: `Creating an e-commerce application seems to be a rite of passage for web developers. I decided to make mine about something close to me - sound. The website is based on a Figma design by Frontend Mentor<span class="align-super text-xs">TM</span>. It features a REST API, cart with server state managementand a complex order form with data validation on both frontend and backend.`,
+    mainDescription: `Creating an e-commerce application seems to be a rite of passage for web developers. I decided to make mine about something close to me - sound. The website is based on a Figma design by Frontend Mentor<span class="align-super text-xs">TM</span>. It features a REST API, a cart with server state management and a complex order form with data validation on both the frontend and backend.`,
     links: [
       {
         type: "demo",
@@ -59,25 +60,34 @@ export const projectsData: {
       {
         title: "Framework choice",
         paragraphs: [
-          "I chose Next.js for this project because it provides SSR which is key for search engine positioning and reaching customers. I also made use of its SSG capabilities - product and category (speakers, headphones etc.) pages are generated at build time from data in the DB. Adding a new product would be as easy as putting it in the database and revalidating these paths. Lastly - monorepo architecture of Next.js allowed me to share types between frontend and backend.",
+          "I chose Next.js for this project because it provides SSR, which is key for search engine positioning and reaching customers. I also made use of its SSG capabilities - product and category (speakers, headphones, etc.) pages are generated at build time. Adding a new product is as easy as putting it in the database and revalidating these paths. Lastly, the monorepo architecture of Next.js allowed me to share types between the frontend and backend.",
         ],
         image: Headphones,
+      },
+
+      {
+        title: "Server state",
+        paragraphs: [
+          "Since information about individual carts is useful for analytics (among other things), I decided to store it on the server. The client is connected to the cart by an ID in local storage.",
+          "I implemented this functionality with React Query. It gave me the tools to handle loading states as well as optimistic updates, which ensure the cart works smoothly.",
+        ],
+        image: Cart,
       },
       {
         title: "Checkout form and data validation",
         paragraphs: [
           "I wanted the checkout form to provide users with descriptive error messages and validate data before sending it for further processing.",
-          "For this job I chose React Hook Form and Zod. Both have elegant APIs and integrate wonderfully with TypeScript. They're also widely used in the industry.",
+          "For this job, I chose React Hook Form and Zod. Both have elegant APIs and integrate wonderfully with TypeScript. They're also widely used in the industry.",
         ],
         image: AudiophileCheckoutError,
       },
       {
-        title: "Server state",
+        title: "Lessons learned",
         paragraphs: [
-          "Since information about individual carts is useful for analytics (among other things), I decided to store it on the server. The client is connected to the cart by ID in local storage.",
-          "I implemented this functionality with React Query. It gave me the tools to handle loading states as well as optimistic updates which ensure the cart works smoothly.",
+          "Working on this project taught me a lot about component-based architecture and responsive web design. It also showed me how managing CSS in a larger project can be a challenge.",
+          "If I were to build a similar application again, I would consider using Tailwind for its gentle built-in design system. Using a CMS could also be beneficial. It would let the business manage their products without interacting with the database.",
         ],
-        image: Cart,
+        image: AudiophileLessons,
       },
     ],
   },
