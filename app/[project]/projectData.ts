@@ -94,7 +94,7 @@ export const projectsData: {
   primuz: {
     title: "Primuz App",
     mainDescription:
-      "Well renowned (and well funded) orchestras have systems which streamline their work. I created something similar for my chamber orchestra. It's a PWA which helps us plan our concerts and rehearsals. Users can display information about projects, receive notifications about new ones in the planning, share if they're available for an event and download sheet music.",
+      "Well-renowned philharmonic orchestras and ensambles use IT systems to streamline their work. I developed something similar for my chamber orchestra. It's a PWA which helps us plan our concerts and rehearsals. Users can access information about projects, receive notifications about new ones, share if they're available for an event and download sheet music.",
     links: [],
     heroImage: PrimuzShowcase,
     techstack: [
@@ -158,7 +158,7 @@ export const projectsData: {
       {
         title: "Lessons learned",
         paragraphs: [
-          "I could write an essay about what I learned during the development of this project. Afterall, it's my first app in production actually used by people.",
+          "I could write an essay about what I learned during the development of this project. Afterall, it's my first app actually used by people.",
           "What proved to be most valuable however, was my first contact with user feedback. Some features turned out to be high friction or less useful than I anticipated, others were missing.",
           "It gave me both motivation and new ideas for further tinkering with Primuz App.",
         ],
