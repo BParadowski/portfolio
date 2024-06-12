@@ -103,7 +103,7 @@ export const projectsData: {
         title: "Motivation",
         paragraphs: [
           "The idea for this application came to me when I noticed several problems with communication and planning within my orchestra. At the time, we used many services: Google Sheets, We-Transfer, e-mails, Google Calendar... Important information would end up scattered across several facebook group posts.",
-          "I realised I can use my skills to bundle these services together and improve our workflow.",
+          "I realised I could use my skills to bundle these services together and improve our workflow.",
         ],
         image: PrimuzMotivation,
       },
