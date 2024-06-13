@@ -54,9 +54,9 @@ function AboutMe() {
           commercial solutions, and I&apos;m looking forward to growing my skills in the real world.
         </p>
         <p>
-          I&apos;m a fan of sci-fi art, books and movies. I love isometric RPGs (Disco Elysium, Planescape: Torment and
-          the like). I&apos;m fascinated by the science of longevity and healthspan. My other interests include
-          linguistics, drawing and plant-based cuisine.
+          A few words about my other interests: I&apos;m a fan of sci-fi art, books and movies. I love isometric RPGs
+          (Disco Elysium, Planescape: Torment and the like). I&apos;m fascinated by the science of longevity (maybe a
+          bit of a health nut?). I also dabble in drawing and plant-based cuisine.
         </p>
       </div>
     </div>
