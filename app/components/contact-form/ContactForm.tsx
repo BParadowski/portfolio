@@ -7,6 +7,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { FormSchemaType, formSchema } from "./formSchema";
 import useModal from "./confirmation-modal/useModal";
 import ErrorMessage from "./ErrorMessage";
+import SendButton from "./send-button/SendButton";
 
 function ContactForm() {
   const {
@@ -28,7 +29,6 @@ function ContactForm() {
   const { openModal } = useModal();
 
   useEffect(() => {
-    console.log(sendingStatus);
     if (sendingStatus === "success") {
       openModal();
     }
@@ -86,15 +86,9 @@ function ContactForm() {
                 className="min-h-24 rounded-md border bg-stone-100 px-4 py-2 tracking-wide focus-within:outline-2"
               />
             </div>
-            {sendingStatus === "pending" ? (
-              <button type="button" className="w-fit justify-self-center rounded-full bg-stone-100 px-4 py-2">
-                Sending...
-              </button>
-            ) : (
-              <button type="submit" className="w-fit justify-self-center rounded-full bg-stone-100 px-4 py-2">
-                Send
-              </button>
-            )}
+            <div className="mt-8 flex justify-center">
+              <SendButton sendingStatus={sendingStatus} />
+            </div>
           </form>
         </div>
       </div>

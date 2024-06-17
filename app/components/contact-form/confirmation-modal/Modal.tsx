@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import useModal from "./useModal";
+import { EmailCheck } from "./EmailCheck";
 
 export default function ConfirmationModal() {
   const closeButtonRef = useRef<HTMLButtonElement>(null);
@@ -33,11 +34,12 @@ export default function ConfirmationModal() {
       >
         <div className="grid content-center gap-y-2 rounded-lg bg-white p-4 text-center md:gap-y-4 md:p-6 lg:gap-y-6 lg:p-8">
           <p className="text-xl font-bold tracking-wide">Thank you for showing interest!</p>
+          <EmailCheck className="h-12 w-12 justify-self-center" />
           <p className="opacity-50">I will get back to you as soon as possible.</p>
           <button
             onClick={closeModal}
             ref={closeButtonRef}
-            className="focus-visible::outline-2 focus-visible::outline-violet-300 border border-violet-300 px-4 py-2 text-lg font-bold"
+            className="focus-visible::outline-2 focus-visible::outline-violet-300 rounded-md border border-violet-300 px-4 py-2 text-lg font-bold hover:bg-violet-100"
           >
             Close
           </button>
