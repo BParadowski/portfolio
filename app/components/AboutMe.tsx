@@ -50,8 +50,8 @@ function AboutMe() {
           &quot;technical&quot; aspects of my personality. After brief consideration of my options, I landed on web
           development. It quickly proved to be the right choice - I enjoy solving tangible problems and working with
           visuals a lot. Ever since, I&apos;ve been drawn closer to the world of programming, latest symptom being the
-          unshakable desire to learn Rust. Currently, I&apos;m at a point where I feel somewhat ready to contribute to
-          commercial solutions, and I&apos;m looking forward to growing my skills in the real world.
+          unshakable desire to learn Rust. Currently, I&apos;m at a point where I feel ready to contribute to commercial
+          solutions, and I&apos;m looking forward to growing my skills in the real world.
         </p>
         <p>
           A few words about my other interests: I&apos;m a fan of sci-fi art, books and movies. I love isometric RPGs
