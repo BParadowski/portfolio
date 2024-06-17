@@ -7,7 +7,7 @@ import Cart from "@/public/audiophile/cart.jpeg";
 import AudiophileLessons from "@/public/audiophile/tailwind-shopify.jpeg";
 // Primuz App
 import PrimuzShowcase from "@/public/primuz/primuz-hero.jpeg";
-import PrimuzAvailabiltiy from "@/public/primuz/availability-picking.jpeg";
+import PrimuzAvailabiltiy from "@/public/primuz/availability-picking2.jpeg";
 import PrimuzInformation from "@/public/primuz/information-flow.jpeg";
 import PrimuzNotification from "@/public/primuz/primuz-notification.jpg";
 import PrimuzCalendar from "@/public/primuz/google-calendar.png";
