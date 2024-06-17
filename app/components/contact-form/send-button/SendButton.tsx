@@ -1,4 +1,4 @@
-import Spinner from "../Spinner";
+import Spinner from "./Spinner";
 import EmailSvg from "./EmailIcon";
 
 interface SendButtonProps {
