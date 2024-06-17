@@ -6,6 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 
 import { FormSchemaType, formSchema } from "./formSchema";
 import useModal from "./confirmation-modal/useModal";
+import ErrorMessage from "./ErrorMessage";
 
 function ContactForm() {
   const {
@@ -48,7 +49,10 @@ function ContactForm() {
         <div className="mt-12 flex justify-center">
           <form onSubmit={handleSubmit(onSubmit)} className="grid w-full max-w-md gap-y-4">
             <div className="flex w-full max-w-md flex-col gap-2">
-              <label htmlFor="name">Name</label>
+              <div className="flex justify-between">
+                <label htmlFor="name">Name</label>{" "}
+                {errors.name && errors.name.message && <ErrorMessage text={errors.name.message} />}
+              </div>
               <input
                 id="name"
                 {...register("name")}
@@ -57,7 +61,11 @@ function ContactForm() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <label htmlFor="email">E-mail</label>
+              <div className="flex justify-between">
+                <label htmlFor="email">E-mail</label>
+
+                {errors.email && errors.email.message && <ErrorMessage text={errors.email.message} />}
+              </div>
               <input
                 id="email"
                 {...register("email")}
@@ -66,7 +74,11 @@ function ContactForm() {
               />
             </div>
             <div className="flex flex-col gap-2">
-              <label htmlFor="message">Your message</label>
+              <div className="flex justify-between">
+                <label htmlFor="message">Your message</label>
+
+                {errors.message && errors.message.message && <ErrorMessage text={errors.message.message} />}
+              </div>
               <textarea
                 id="message"
                 {...register("message")}
