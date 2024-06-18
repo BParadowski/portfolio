@@ -31,6 +31,7 @@ const config: Config = {
       boxShadow: {
         heroBg:
           "-2rem 0 2rem 2rem rgb(255,255,255, 0.65), 2rem 0 2rem rgb(255,255,255, 0.65), inset 500rem 500rem rgb(255,255,255, 0.65)",
+        heroBgMobile: "inset 0 -3rem  3rem 2rem rgb(255,255,255, 0.85), inset 0 3rem  3rem rgb(255,255,255, 0.85)",
       },
     },
   },

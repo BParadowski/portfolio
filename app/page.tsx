@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <main>
       <div className="">
-        <div className="py-20">
-          <Hero />
-        </div>
+        <Hero />
         <div className="grid gap-y-20 md:gap-y-24 xl:gap-y-32">
           <Skills />
           <Projects />
