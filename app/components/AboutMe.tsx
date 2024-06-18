@@ -6,9 +6,9 @@ function AboutMe() {
       <h2 className="text-center text-3xl font-extrabold">About me </h2>
       <div className="mt-10 flex flex-col gap-4 text-justify opacity-50">
         <p>
-          I&apos;m a musician pursuing a master&apos;s degree in viola performance which I&apos;m expecting to finish
-          this fall. I&apos;ve been working as a freelance studio and concert artist for the last 5 years. I specialize
-          in new music performance - I&apos;ve performed at numerous festivals with ensembles like{" "}
+          I&apos;m a musician pursuing a master&apos;s degree in viola performance which I expect to complete this fall.
+          For the past 5 years, I&apos;ve worked as a freelance studio and concert artist, specializing in new music
+          performance. I&apos;ve performed at numerous festivals with ensembles such as{" "}
           <a
             href="https://omn.art.pl/en/"
             className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
@@ -29,20 +29,20 @@ function AboutMe() {
           >
             Primuz Chamber Orchestra
           </a>{" "}
-          with which I&apos;ve performed dozens of concerts and recorded film scores and albums. You can listen to us:{" "}
+          with which I&apos;ve played dozens of concerts and recorded film scores and albums. You can listen to us:{" "}
           <a
             href="https://www.youtube.com/watch?v=5hNdV5Q5EIQ&list=PLBQZMaICTUs3fUHRjKp7oBXWSNHK_-nR_&index=1/"
             className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
           >
-            The Aristocrats With Primuz Chamber Orchestra (progressive rock)
+            "The Aristocrats With Primuz Chamber Orchestra" (progressive rock)
           </a>{" "}
           or{" "}
           <a
             href="https://www.youtube.com/watch?v=hvYOwIEPrLI&list=OLAK5uy_lyiFj4YTow-vCIkeG9rSHe0dq2C343-RE"
             className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
           >
-            Grażyna Bacewicz - Music for String Orchestra (20<span className="align-super text-xs">th</span> century
-            classical)
+            "Grażyna Bacewicz - Music for String Orchestra" (20<span className="align-super text-xs">th</span> century
+            classical).
           </a>{" "}
         </p>
         <p>
@@ -54,9 +54,9 @@ function AboutMe() {
           solutions, and I&apos;m looking forward to growing my skills in the real world.
         </p>
         <p>
-          A few words about my other interests: I&apos;m a fan of sci-fi art, books and movies. I love isometric RPGs
-          (Disco Elysium, Planescape: Torment and the like). I&apos;m fascinated by the science of longevity (maybe a
-          bit of a health nut?). I also dabble in drawing and plant-based cuisine.
+          When I&apos;m not making music or coding, I relax consuming art, books and movies (especially sci-fi). I love
+          playing isometric RPGs (Disco Elysium, Planescape: Torment and the like). I dabble in drawing and painting. My
+          other interests include the science of longevity and plant-based cuisine.
         </p>
       </div>
     </div>

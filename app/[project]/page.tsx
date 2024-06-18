@@ -59,7 +59,7 @@ export default async function Page({ params }: { params: ReturnType<typeof gener
       {details.length > 0 && (
         <div className="mt-10">
           <h2 className="mb-10 self-end text-3xl font-bold">Project Details</h2>
-          <div className="flex flex-col gap-12">
+          <div className="flex flex-col gap-16 md:gap-20 xl:gap-28">
             {details.map(({ title, paragraphs, image }) => {
               return (
                 <div

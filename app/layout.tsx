@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <QueryProvider>
-        <body className={`${inter.className} grid min-h-screen grid-rows-[auto_1fr_auto]`}>
+        <body className={`${inter.className} relative grid min-h-screen grid-rows-[auto_1fr_auto] bg-white`}>
           <Header />
           {children}
           <ModalProvider>

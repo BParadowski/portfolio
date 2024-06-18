@@ -28,14 +28,14 @@ type TechKind = keyof typeof icons;
 
 function Skills() {
   return (
-    <div className="container" id="skills">
-      <div className="">
+    <div className="bg-stone-100 py-10" id="skills">
+      <div className="container">
         <h2 className="text-center text-3xl font-extrabold tracking-wide">My skills</h2>
         <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-4 md:grid-cols-3">
           {Object.keys(icons).map((techKind, i) => {
             return (
               <div
-                className={`rounded-2xl border p-4 ${i === 2 ? "col-span-2 w-1/2 justify-self-center md:col-span-1 md:w-auto md:justify-self-auto" : ""}`}
+                className={`rounded-2xl border bg-white p-4 ${i === 2 ? "col-span-2 w-1/2 justify-self-center md:col-span-1 md:w-auto md:justify-self-auto" : ""}`}
                 key={techKind}
               >
                 <h3 className="font-semibold capitalize">{techKind}</h3>
@@ -55,8 +55,8 @@ function Skills() {
         </div>
         <div className="mt-6 flex flex-col items-center gap-6">
           <h3 className="text-center font-semibold">Currently learning</h3>
-          <div className="flex w-fit items-center gap-6 rounded-full bg-stone-100 px-4 py-4 shadow-md">
-            <div className="rounded-full bg-white p-2">
+          <div className="flex w-fit items-center gap-6 rounded-full bg-white px-4 py-4 shadow-md">
+            <div className="rounded-full border bg-white p-2 shadow-sm">
               <img src="/icons/icons8-docker.svg" className="translate-x-1" />
             </div>
             <p className="text-balance">Basics of Docker and container architecture</p>

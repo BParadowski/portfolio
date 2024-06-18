@@ -13,7 +13,7 @@ import NavDropdown from "./mobile-nav/NavDropdown";
 
 function Header() {
   return (
-    <header className="sticky isolate z-20">
+    <header className="isolate z-20 bg-stone-100">
       <div className="container">
         <div className="flex items-center py-8">
           <Link href={"/"}>
@@ -24,15 +24,15 @@ function Header() {
           </Link>
           <nav className="ml-auto hidden md:block">
             <ul className="flex gap-4 tracking-wide">
-              <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-stone-100" href="/#skills">
+              <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-stone-200" href="/#skills">
                 <Image src={StackIcon} alt="" className="h-4 w-4 opacity-40 group-hover:opacity-60" />
                 <span className="opacity-70 group-hover:opacity-85">Skills</span>
               </a>
-              <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-stone-100" href="/#projects">
+              <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-stone-200" href="/#projects">
                 <Image src={ProjectIcon} alt="" className="h-4 w-4 opacity-40 group-hover:opacity-60" />
                 <span className="opacity-70 group-hover:opacity-85">Projects</span>
               </a>
-              <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-stone-100" href="/#about-me">
+              <a className="group flex items-center gap-2 rounded-md px-4 py-4 hover:bg-stone-200" href="/#about-me">
                 <Image src={AboutIcon} alt="" className="h-4 w-4 opacity-40 group-hover:opacity-60" />
                 <span className="opacity-70 group-hover:opacity-85">About me</span>
               </a>
