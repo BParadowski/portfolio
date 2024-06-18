@@ -50,7 +50,7 @@ function ContactForm() {
           <form onSubmit={handleSubmit(onSubmit)} className="grid w-full max-w-md gap-y-4">
             <div className="flex w-full max-w-md flex-col gap-2">
               <div className="flex justify-between">
-                <label htmlFor="name">Name</label>{" "}
+                <label htmlFor="name">Name*</label>{" "}
                 {errors.name && errors.name.message && <ErrorMessage text={errors.name.message} />}
               </div>
               <input
@@ -62,7 +62,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col gap-2">
               <div className="flex justify-between">
-                <label htmlFor="email">E-mail</label>
+                <label htmlFor="email">E-mail*</label>
 
                 {errors.email && errors.email.message && <ErrorMessage text={errors.email.message} />}
               </div>
@@ -75,7 +75,7 @@ function ContactForm() {
             </div>
             <div className="flex flex-col gap-2">
               <div className="flex justify-between">
-                <label htmlFor="message">Your message</label>
+                <label htmlFor="message">Your message*</label>
 
                 {errors.message && errors.message.message && <ErrorMessage text={errors.message.message} />}
               </div>
