@@ -22,10 +22,15 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        dots: "url('/dots.svg')",
       },
       colors: {
         reddish: "#df585b",
         purpleish: "#683f5f",
+      },
+      boxShadow: {
+        heroBg:
+          "-2rem 0 2rem 2rem rgb(255,255,255, 0.8), 2rem 0 2rem rgb(255,255,255, 0.8), inset 500rem 500rem rgb(255,255,255, 0.85)",
       },
     },
   },

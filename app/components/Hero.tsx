@@ -4,12 +4,12 @@ import Portrait from "@/public/square.jpeg";
 
 function Hero() {
   return (
-    <div className="bg-white">
-      <div className="container isolate rounded-2xl">
-        <div className="grid place-items-center gap-y-8 md:grid-cols-2 md:gap-y-4">
+    <div className="bg-dots bg-white">
+      <div className="container isolate">
+        <div className="shadow-heroBg grid place-items-center gap-y-8 md:grid-cols-2 md:gap-y-4">
           <div className="min-w-full text-3xl font-medium tracking-wide md:self-end md:text-4xl">
-            <p className="text-center leading-normal md:text-start">
-              Bartosz Paradowski
+            <div className="text-center leading-normal md:text-start">
+              <p>Bartosz Paradowski</p>
               <p className="text-xl">
                 A Full Stack{" "}
                 <span className="bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
@@ -20,7 +20,7 @@ function Hero() {
                   Musician
                 </span>
               </p>
-            </p>
+            </div>
           </div>
           <Image
             alt=""
@@ -28,7 +28,7 @@ function Hero() {
             className="bg-left-[10rem] max-w-80 rounded-full md:col-start-2 md:row-span-2 md:row-start-1"
           />
           <div className="flex flex-col items-center gap-8 self-center pt-4 text-center md:col-start-1 md:items-start md:self-auto md:text-start">
-            <p className="max-w-prose text-lg leading-relaxed opacity-50">
+            <p className="max-w-prose text-lg leading-relaxed opacity-70">
               I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I&apos;m
               looking for opportunities to enter the industry!
             </p>
