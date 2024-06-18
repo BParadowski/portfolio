@@ -29,20 +29,20 @@ function AboutMe() {
           >
             Primuz Chamber Orchestra
           </a>{" "}
-          with which I&apos;ve played dozens of concerts and recorded film scores and albums. You can listen to us:{" "}
+          with whom I&apos;ve played dozens of concerts and recorded film scores and albums. You can listen to us:{" "}
           <a
             href="https://www.youtube.com/watch?v=5hNdV5Q5EIQ&list=PLBQZMaICTUs3fUHRjKp7oBXWSNHK_-nR_&index=1/"
             className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
           >
-            "The Aristocrats With Primuz Chamber Orchestra" (progressive rock)
+            &quot;The Aristocrats With Primuz Chamber Orchestra&quot; (progressive rock)
           </a>{" "}
           or{" "}
           <a
             href="https://www.youtube.com/watch?v=hvYOwIEPrLI&list=OLAK5uy_lyiFj4YTow-vCIkeG9rSHe0dq2C343-RE"
             className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
           >
-            "Grażyna Bacewicz - Music for String Orchestra" (20<span className="align-super text-xs">th</span> century
-            classical).
+            &quot;Grażyna Bacewicz - Music for String Orchestra&quot; (20<span className="align-super text-xs">th</span>{" "}
+            century classical).
           </a>{" "}
         </p>
         <p>
