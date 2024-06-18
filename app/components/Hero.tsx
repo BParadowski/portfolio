@@ -4,7 +4,7 @@ import Portrait from "@/public/square.jpeg";
 
 function Hero() {
   return (
-    <div className="bg-dots bg-white">
+    <div className="bg-dots bg-white bg-contain">
       <div className="container isolate">
         <div className="shadow-heroBg grid place-items-center gap-y-8 md:grid-cols-2 md:gap-y-4">
           <div className="min-w-full text-3xl font-medium tracking-wide md:self-end md:text-4xl">
