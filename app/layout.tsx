@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <QueryProvider>
         <body className={`${inter.className} relative grid min-h-screen grid-rows-[auto_1fr_auto] bg-white`}>
           <Header />

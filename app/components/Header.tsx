@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className="isolate z-20 bg-stone-100">
       <div className="container">
-        <div className="flex items-center py-6">
+        <div className="flex items-center py-4">
           <Link href={"/"}>
             <h1 className="py-2 font-bold uppercase leading-none">
               Bartosz <br />

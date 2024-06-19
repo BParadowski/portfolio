@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Circler from "./svg-decorations/SvgCircler";
 
 const icons = {
   frontend: {
@@ -56,10 +57,11 @@ function Skills() {
         <div className="mt-6 flex flex-col items-center gap-6">
           <h3 className="text-center font-semibold">Currently learning</h3>
           <div className="flex w-fit items-center gap-6 rounded-full bg-white px-4 py-4 shadow-md">
-            <div className="rounded-full border bg-white p-2 shadow-sm">
-              <img src="/icons/icons8-docker.svg" className="translate-x-1" />
+            <div className="relative rounded-full bg-white p-2 shadow-sm">
+              <Circler />
+              <img src="/icons/icons8-docker.svg" className="translate-x-1 opacity-40" />
             </div>
-            <p className="text-balance">Basics of Docker and container architecture</p>
+            <p className="text-balance">Docker and container architecture</p>
           </div>
         </div>
       </div>
