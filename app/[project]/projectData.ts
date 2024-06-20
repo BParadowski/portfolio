@@ -16,6 +16,7 @@ import PrimuzInstallation from "@/public/primuz/installation.jpeg";
 import PrimuzCMS from "@/public/primuz/cms.jpeg";
 // Designo
 import DesignoShowcase from "@/public/designo/designo-showcase.jpeg";
+import PolymorphicButton from "@/public/designo/polymorphic-button.jpeg";
 
 export interface ProjectData {
   title: string;
@@ -178,7 +179,16 @@ export const projectsData: {
       },
       { type: "github", url: "https://github.com/BParadowski/designo" },
     ],
-    techstack: ["TypeScript", "Next.js (app router)", "Tailwind", "SVGR", "Playwright"],
-    details: [],
+    techstack: ["TypeScript", "Next.js (app router)", "Tailwind", "cva", "SVGR", "Playwright"],
+    details: [
+      {
+        title: "Polymorphic button component",
+        paragraphs: [
+          "Creating a typesafe component which can serve as both a regular button and a link is surprisingly non-trivial.",
+          "You can <a href='https://github.com/BParadowski/designo/blob/main/app/components/shared/Button.tsx' class='bg-gradient-to-r from-amber-700 to-orange-800 bg-clip-text text-transparent'>see my implementation here.</a>",
+        ],
+        image: PolymorphicButton,
+      },
+    ],
   },
 };

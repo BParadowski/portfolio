@@ -8,9 +8,9 @@ export default function Home() {
     <main>
       <div className="">
         <Hero />
+        <Skills />
+        <Projects />
         <div className="grid gap-y-20 md:gap-y-24 xl:gap-y-32">
-          <Skills />
-          <Projects />
           <AboutMe />
         </div>
       </div>
