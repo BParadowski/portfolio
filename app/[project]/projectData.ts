@@ -113,23 +113,23 @@ export const projectsData: {
       {
         title: "Motivation",
         paragraphs: [
-          "The idea for this application came to me when I noticed several problems with communication and planning within my orchestra. At the time, we used many services: Google Sheets, We-Transfer, e-mails, Google Calendar... Important information would end up scattered across several facebook group posts.",
-          "I realised I could use my skills to bundle these services together and improve our workflow.",
+          "The idea for this application came to me when I noticed several problems with communication and planning within my orchestra. At the time, we used many services: Google Sheets, WeTransfer, emails, Google Calendar and Facebook. Important information would end up scattered across all these sources, making it difficult to access.",
+          "I realized I could use my skills to bundle these services together and improve our workflow.",
         ],
         image: PrimuzMotivation,
       },
       {
         title: "Availability sharing",
         paragraphs: [
-          "Orchestra members can signal if they're available for a given project. They can choose from 4 different status types and attach a message.",
-          `It solved two problems of Google Sheets. We used to have the choice between checkmark and no checkmark - it offered no distinction between "I don't know yet" and "I'm unavailable". The other problem was UX on mobile devices - my collegues had problems getting Google Sheets to work on their phones.`,
+          "Orchestra members can signal if they're available for a given project by choosing from 4 different status types and attaching a message.",
+          `This solved two problems we had with Google Sheets. We used to have the choice between checkmark and no checkmark - it offered no distinction between "I don't know yet" and "I'm unavailable". The other problem was UX on mobile devices - my collegues reported problems getting Google Sheets to work on their phones.`,
         ],
         image: PrimuzAvailabiltiy,
       },
       {
         title: "Information flow",
         paragraphs: [
-          "We can now access all information about an event on its page - two taps aways from phone's desktop. It's no longer divided into bits and pieces.",
+          "We can now access all information about an event on its page - two taps away from the phone's desktop. It's no longer divided into bits and pieces.",
         ],
         image: PrimuzInformation,
       },
@@ -137,31 +137,31 @@ export const projectsData: {
         title: "Notifications",
         paragraphs: [
           "App users can choose to receive notifications about new projects and important updates.",
-          "Unfortunately, this functionality got crippled by Apple when they withdrew push notification support for PWAs. I also regret having used OneSignal. Even though the implementation was relatively simple, the node SDK turned out to be buggy (I ended up using fetch for API calls) and the documentation left much to be desired.",
+          "Unfortunately, this functionality was crippled by Apple when they withdrew push notification support for PWAs. I also regret having used OneSignal. Although the implementation was relatively simple, the Node SDK turned out to be buggy (I ended up using fetch for API calls), and the documentation left much to be desired.",
         ],
         image: PrimuzNotification,
       },
       {
         title: "Google Calendar integration",
         paragraphs: [
-          "In the past we used a Google Calendar as a part of our planning system. I implemented sync between it and Primuz App. Thanks to it, we still enjoy the convenience of all concerts appearing in our calendar apps and there is no additional organisational overhead (managing both app and calendar).",
+          "In the past, we used Google Calendar as part of our planning system. I implemented synchronization between it and the Primuz App. Thanks to it, we still enjoy the convenience of having all concerts appear in our calendar apps without any additional organizational overhead from managing both the app and the calendar.",
         ],
         image: PrimuzCalendar,
       },
       {
         title: "Content management system",
         paragraphs: [
-          "Members of the orchestra responsible for organisation have a CMS at their disposal. They can create and edit projects as well as add sheet music to the database.",
-          "I'm especially pround of a component designed to build the exact structure of the orchestra. Our concertmaster can see the availability of all musicians, add them to sections and then sort them using drag and drop.",
+          "Members of the orchestra responsible for organization have a CMS at their disposal. They can create and edit projects as well as add sheet music to the database.",
+          "I'm especially proud of a component designed to build the exact structure of the orchestra. Our concertmaster can see the availability of all musicians, add them to sections, and then sort them using drag and drop.",
         ],
         image: PrimuzCMS,
       },
       {
         title: "Lessons learned",
         paragraphs: [
-          "I could write an essay about what I learned during the development of this project. Afterall, it's my first app actually used by people.",
-          "What proved to be most valuable however, was my first contact with user feedback. Some features turned out to be high friction or less useful than I anticipated, others were missing.",
-          "It gave me both motivation and new ideas for further tinkering with Primuz App.",
+          "I could write an essay about what I learned during the development of this project. After all, it's my first app actually used by people.",
+          "What proved to be most valuable, however, was my first contact with user feedback. Some features turned out to be high friction or less useful than I anticipated, while others were missing.",
+          "This feedback gave me both motivation and new ideas for further tinkering with the application.",
         ],
         image: PrimuzInstallation,
       },
