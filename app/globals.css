@@ -16,15 +16,17 @@
   .circle-two-dashes {
     stroke-dasharray: 70;
     stroke-dashoffset: 260;
-
-    min-height: -webkit-fill-available;
-    min-width: -webkit-fill-available;
   }
 
   .circle-one-dash {
     stroke-dasharray: 283;
     stroke-dashoffset: 240;
-    min-height: -webkit-fill-available;
-    min-width: -webkit-fill-available;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .circle-one-dash,
+    .circle-two-dashes {
+      -webkit-transform: translate(0px, 0px);
+    }
   }
 }
