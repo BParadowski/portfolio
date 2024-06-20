@@ -57,7 +57,7 @@ function Skills() {
         <div className="mt-6 flex flex-col items-center gap-6">
           <h3 className="text-center font-semibold">Currently learning</h3>
           <div className="flex w-fit items-center gap-6 rounded-full bg-white px-4 py-4 shadow-md">
-            <div className="relative rounded-full bg-white p-2 shadow-sm">
+            <div className="relative flex items-center justify-center rounded-full bg-white p-2 shadow-sm">
               <Circler />
               <img src="/icons/icons8-docker.svg" className="translate-x-1 opacity-40" />
             </div>
