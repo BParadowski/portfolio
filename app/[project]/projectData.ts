@@ -170,7 +170,7 @@ export const projectsData: {
   designo: {
     title: "Designo",
     mainDescription:
-      "This project is an exercise in RWD, based on a Figma design. It served me as a playground to explore three technologies: App router of Next.js, Tailwind and basics of E2E testing with Playwright. I ended up learning surprisingly much, not only about these libraries but also CSS and TypeScript.",
+      "This project is an exercise in reponsive web design, based on a Figma design. It served as a playground for exploring three technologies: the App Router of Next.js, Tailwind, and the basics of E2E testing with Playwright. I ended up learning surprisingly much, not only about these libraries but also about CSS and TypeScript.",
     heroImage: DesignoShowcase,
     links: [
       {
