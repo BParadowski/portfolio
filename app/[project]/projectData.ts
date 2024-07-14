@@ -96,7 +96,7 @@ export const projectsData: {
     title: "Primuz App",
     mainDescription:
       "Well-renowned philharmonic orchestras and ensambles use IT systems to streamline their work. I developed something similar for my chamber orchestra. It's a PWA which helps us plan our concerts and rehearsals. Users can access information about projects, receive notifications about new ones, share if they're available for an event and download sheet music.",
-    links: [{ type: "github", url: "https://github.com/BParadowski/primuz" }],
+    links: [],
     heroImage: PrimuzShowcase,
     techstack: [
       "TypeScript",
