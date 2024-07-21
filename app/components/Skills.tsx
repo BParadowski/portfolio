@@ -22,6 +22,7 @@ const icons = {
     Git: "/icons/icons8-git.svg",
     Figma: "/icons/icons8-figma.svg",
     Playwright: "/icons/logos-playwright.svg",
+    "Basic Docker": "/icons/icons8-docker.svg",
   },
 } as const;
 
@@ -59,9 +60,9 @@ function Skills() {
           <div className="flex w-fit items-center gap-6 rounded-full bg-white px-4 py-4 shadow-md">
             <div className="relative flex items-center justify-center rounded-full bg-white p-2 shadow-sm">
               <Circler />
-              <img src="/icons/icons8-docker.svg" className="translate-x-1 opacity-40" />
+              <img src="/icons/icons8-nestjs.svg" className="opacity-60" />
             </div>
-            <p className="text-balance">Docker and container architecture</p>
+            <p className="text-balance">Nest.js</p>
           </div>
         </div>
       </div>
