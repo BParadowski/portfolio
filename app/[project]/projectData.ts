@@ -95,7 +95,7 @@ export const projectsData: {
   primuz: {
     title: "Primuz App",
     mainDescription:
-      "Well-renowned philharmonic orchestras and ensambles use IT systems to streamline their work. I developed something similar for Primuz Chamber Orchestra. It's a Progressive Web App which helps plan concerts and rehearsals. Users can access information about projects, receive notifications about new ones, share if they're available for an event and download sheet music.",
+      "Well-renowned philharmonic orchestras and ensembles use IT systems to streamline their work. I developed something similar for Primuz Chamber Orchestra. It's a Progressive Web App which helps plan concerts and rehearsals. Users can access information about projects, receive notifications about new ones, share if they're available for an event and download sheet music.",
     links: [],
     heroImage: PrimuzShowcase,
     techstack: [
