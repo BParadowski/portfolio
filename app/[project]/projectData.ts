@@ -95,7 +95,7 @@ export const projectsData: {
   primuz: {
     title: "Primuz App",
     mainDescription:
-      "Well-renowned philharmonic orchestras and ensambles use IT systems to streamline their work. I developed something similar for my chamber orchestra. It's a PWA which helps us plan our concerts and rehearsals. Users can access information about projects, receive notifications about new ones, share if they're available for an event and download sheet music.",
+      "Well-renowned philharmonic orchestras and ensambles use IT systems to streamline their work. I developed something similar for Primuz Chamber Orchestra. It's a Progressive Web App which helps plan concerts and rehearsals. Users can access information about projects, receive notifications about new ones, share if they're available for an event and download sheet music.",
     links: [],
     heroImage: PrimuzShowcase,
     techstack: [
@@ -114,7 +114,7 @@ export const projectsData: {
         title: "Motivation",
         paragraphs: [
           "The idea for this application came to me when I noticed several problems with communication and planning within my orchestra. At the time, we used many services: Google Sheets, WeTransfer, emails, Google Calendar and Facebook. Important information would end up scattered across all these sources, making it difficult to access.",
-          "I realized I could use my skills to bundle these services together and improve our workflow.",
+          "I realized I could use my skills to bundle these services together and offered to create an app for Primuz Foundation.",
         ],
         image: PrimuzMotivation,
       },
@@ -122,7 +122,7 @@ export const projectsData: {
         title: "Availability sharing",
         paragraphs: [
           "Orchestra members can signal if they're available for a given project by choosing from 4 different status types and attaching a message.",
-          `This solved two problems we had with Google Sheets. We used to have the choice between checkmark and no checkmark - it offered no distinction between "I don't know yet" and "I'm unavailable". The other problem was UX on mobile devices - my collegues reported problems getting Google Sheets to work on their phones.`,
+          `This solved two problems the orchestra had with Google Sheets. We used to have the choice between checkmark and no checkmark - it offered no distinction between "I don't know yet" and "I'm unavailable". The other problem was UX on mobile devices - my collegues reported problems getting Google Sheets to work on their phones.`,
         ],
         image: PrimuzAvailabiltiy,
       },
@@ -137,7 +137,7 @@ export const projectsData: {
         title: "Notifications",
         paragraphs: [
           "App users can choose to receive notifications about new projects and important updates.",
-          "Unfortunately, this functionality was crippled by Apple when they withdrew push notification support for PWAs. I also regret having used OneSignal. Although the implementation was relatively simple, the Node SDK turned out to be buggy (I ended up using fetch for API calls), and the documentation left much to be desired.",
+          "I regret having used OneSignal. Although the implementation was relatively simple, the Node SDK turned out to be buggy (I ended up using fetch for API calls), and the documentation left much to be desired. If I were to recreate this functionality I would choose a custom solution.",
         ],
         image: PrimuzNotification,
       },
