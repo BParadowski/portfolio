@@ -4,10 +4,10 @@ import Portrait from "@/public/square.jpeg";
 
 function Hero() {
   return (
-    <div className="bg-dots shadow-heroBgMobile bg-white bg-contain py-12 md:bg-none md:py-20 md:shadow-none">
-      <div className="md:bg-dots bg-contain">
+    <div className="bg-white bg-dots bg-contain py-12 shadow-heroBgMobile md:bg-none md:py-20 md:shadow-none">
+      <div className="bg-contain md:bg-dots">
         <div className="container isolate">
-          <div className="shadow-heroBg grid place-items-center gap-y-8 md:grid-cols-2 md:gap-y-4">
+          <div className="grid place-items-center gap-y-8 shadow-heroBg md:grid-cols-2 md:gap-y-4">
             <div className="min-w-full text-3xl font-medium tracking-wide md:self-end md:text-4xl">
               <div className="text-center leading-normal md:text-start">
                 <p>Bartosz Paradowski</p>
@@ -30,8 +30,8 @@ function Hero() {
             />
             <div className="flex flex-col items-center gap-8 self-center pt-4 text-center md:col-start-1 md:items-start md:self-auto md:text-start">
               <p className="max-w-prose text-lg leading-relaxed opacity-90">
-                I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React. I&apos;m
-                looking for opportunities to enter the industry!
+                I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React and
+                Node.js.
               </p>
               <a
                 href="/#contact"

@@ -50,8 +50,9 @@ function AboutMe() {
           &quot;technical&quot; aspects of my personality. After brief consideration of my options, I landed on web
           development. It quickly proved to be the right choice - I enjoy solving tangible problems and working with
           visuals a lot. Ever since, I&apos;ve been drawn closer to the world of programming, latest symptom being the
-          unshakable desire to learn Rust. Currently, I&apos;m at a point where I feel ready to contribute to commercial
-          solutions, and I&apos;m looking forward to growing my skills in the real world.
+          unshakable desire to learn Rust. Currently, I have my first freelance experiences under my belt. I&apos;m at a
+          point where I&apos;m ready to contribute to commercial solutions, and I&apos;m looking forward to growing my
+          skills in large-scale projects and teams.
         </p>
         <p>
           When I&apos;m not making music or coding, I relax consuming art, books and movies (especially sci-fi). I love
