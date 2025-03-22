@@ -49,15 +49,14 @@ function AboutMe() {
           I got into coding right after finishing my bachelor&apos;s degree. I found myself missing the more
           &quot;technical&quot; aspects of my personality. After brief consideration of my options, I landed on web
           development. It quickly proved to be the right choice - I enjoy solving tangible problems and working with
-          visuals a lot. Ever since, I&apos;ve been drawn closer to the world of programming, latest symptom being the
-          unshakable desire to learn Rust. Currently, I have my first freelance experiences under my belt. I&apos;m at a
-          point where I&apos;m ready to contribute to commercial solutions, and I&apos;m looking forward to growing my
-          skills in large-scale projects and teams.
+          visuals a lot. Ever since, I&apos;ve been drawn closer to the world of programming, lately exploring backend
+          development and cloud environements. Currently, with first freelance experiences under my belt, I&apos;m
+          looking forward to growing my skills in large-scale projects and teams.
         </p>
         <p>
           When I&apos;m not making music or coding, I relax consuming art, books and movies (especially sci-fi). I love
           playing isometric RPGs (Disco Elysium, Planescape: Torment and the like). I dabble in drawing and painting. My
-          other interests include the science of longevity and plant-based cuisine.
+          other interests include machine learning, the science of longevity and plant-based cuisine.
         </p>
       </div>
     </div>

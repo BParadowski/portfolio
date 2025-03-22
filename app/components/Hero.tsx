@@ -30,8 +30,7 @@ function Hero() {
             />
             <div className="flex flex-col items-center gap-8 self-center pt-4 text-center md:col-start-1 md:items-start md:self-auto md:text-start">
               <p className="max-w-prose text-lg leading-relaxed opacity-90">
-                I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications with React and
-                Node.js.
+                I enjoy bringing beautiful UIs to life and creating typesafe, reliable applications.
               </p>
               <a
                 href="/#contact"
