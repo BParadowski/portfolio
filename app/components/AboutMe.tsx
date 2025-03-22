@@ -54,9 +54,10 @@ function AboutMe() {
           looking forward to growing my skills in large-scale projects and teams.
         </p>
         <p>
-          When I&apos;m not making music or coding, I relax consuming art, books and movies (especially sci-fi). I love
-          playing isometric RPGs (Disco Elysium, Planescape: Torment and the like). I dabble in drawing and painting. My
-          other interests include machine learning, the science of longevity and plant-based cuisine.
+          When I&apos;m not making music or coding, I relax consuming art and reading, I might even watch a movie once
+          in a blue moon (probably sci-fi). I love playing isometric RPGs (Disco Elysium, Planescape: Torment and the
+          like). I dabble in drawing and painting. My other interests include machine learning, the science of longevity
+          and plant-based cuisine.
         </p>
       </div>
     </div>
