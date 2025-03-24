@@ -6,7 +6,7 @@ function Footer() {
       <div className="container">
         <div className="flex items-center py-6">
           <p className="px-4 py-2 leading-none opacity-55">
-            Bartosz Paradowski 2024&copy;. Icons by{" "}
+            Bartosz Paradowski 2025&copy;. Icons by{" "}
             <a href="https://icons8.com" className="underline opacity-90">
               icons8
             </a>

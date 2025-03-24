@@ -6,9 +6,9 @@ function AboutMe() {
       <h2 className="text-center text-3xl font-extrabold">About me </h2>
       <div className="mt-10 flex flex-col gap-4 text-justify opacity-50">
         <p>
-          I&apos;m a musician pursuing a master&apos;s degree in viola performance which I expect to complete this fall.
-          For the past 5 years, I&apos;ve worked as a freelance studio and concert artist, specializing in new music
-          performance. I&apos;ve performed at numerous festivals with ensembles such as{" "}
+          I&apos;m a musician holding a master&apos;s degree in viola performance from the Grażyna and Kiejstut Bacewicz
+          Academy of Music in Łódź. For the past 6 years, I&apos;ve worked as a freelance studio and concert artist,
+          specializing in new music performance. I&apos;ve performed at numerous festivals with ensembles such as{" "}
           <a
             href="https://omn.art.pl/en/"
             className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
@@ -22,7 +22,7 @@ function AboutMe() {
           >
             Hashtag Ensemble
           </a>
-          . For more than 4 years, I&apos;ve been a member of{" "}
+          . For more than 5 years, I&apos;ve been a member of{" "}
           <a
             href="https://www.facebook.com/primuzchamberorchestra/"
             className="bg-gradient-to-r from-violet-700 to-purple-800 bg-clip-text text-transparent"
